@@ -74,5 +74,5 @@ docker-compose up -d
 
 - Dadurch wird die Anwendung in einem Docker-Container gestartet und ist unter der angegebenen Adresse http://localhost:5004 verfügbar.
 
-Das ist deine erste Web-Anwendung, Congratulations!
+## Das ist deine erste Web-Anwendung, Congratulations!
         
