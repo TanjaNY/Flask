@@ -74,19 +74,7 @@ docker-compose up -d
 
 - Dadurch wird die Anwendung in einem Docker-Container gestartet und ist unter der angegebenen Adresse http://localhost:5004 verfügbar.
 
-Erweiterungsmöglichkeiten:
 
-Webserver:
--Integrieren Sie einen Webserver wie Nginx oder Apache in Ihre Anwendung.
--Nginx eignet sich hervorragend für statische Inhalte und hohe Performance.
--Apache bietet hingegen mehr Flexibilität für dynamische Anwendungen.
-Datenbank:
--Wählen Sie eine geeignete Datenbank für Ihre Anwendung:
--SQLite eignet sich gut für kleinere Projekte mit lokaler Speicherung.
--MySQL und PostgreSQL sind leistungsstarke relationale Datenbanken für umfangreichere Anwendungen.
-Docker Compose:
--Definieren Sie Ihre gesamte Infrastruktur (Anwendung, Webserver, Datenbank) in einer zentralen Docker Compose-Datei.
--Mittels dieser Datei können Sie alle Komponenten einfach starten, stoppen und aktualisieren.
 
 ## Das ist deine erste Web-Anwendung, Congratulations!
         
