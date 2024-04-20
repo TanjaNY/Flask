@@ -19,7 +19,7 @@
 git clone https://github.com/TanjaNY/Flask.git
 ```
 
-## 2. Conda-Umgebung erstellen:
+## 2. Flask-Umgebung erstellen:
 
 - Öffne die Conda-Befehlszeile.
 - Füge dein Anaconda-Verzeichnis zu den Umgebungsvariablen hinzu [Anleitung](https://michster.de/wie-setze-ich-die-path-umgebungsvariablen-unter-windows-10/).
@@ -32,7 +32,18 @@ conda create --name flask_env
 - Aktiviere die erstellte Umgebung mit dem Befehl:
 
 ```bash
-conda activate flask_env 
+conda activate flask_env
+```
+- Anaconda ist nicht zwingend erforderlich, um eine Flask-App zu entwickeln. Du benötigst Anaconda, wenn du Data Science meistern möchtest. Im Fall, dass du dich gegen Anaconda entscheidest, werden die Befehle etwas anders aussehen.
+
+
+```bash
+python -m venv flask_env 
+```
+
+
+```bash
+flask_env\Scripts\activate
 ```
 
 ## 3. Flask und Werkzeug installieren:
@@ -55,11 +66,14 @@ flask run
 ```
 
 - Dadurch wird die Anwendung gestartet und ist standardmäßig unter http://localhost verfügbar. Die Adresse wird nach dem Start angezeigt.
-- 
+
+  
 
 ![](https://github.com/TanjaNY/Flask/blob/main/pics/Flask02.png?raw=true)
 
+
 -Öffne deinen Webbrowser und gib die Adresse http://localhost:5005 in die Adressleiste ein, um deine Anwendung zu sehen.
+
 
 
 ![](https://github.com/TanjaNY/Flask/blob/main/pics/flask01.png?raw=true)
