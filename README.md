@@ -9,7 +9,13 @@
 - Python: [Download](https://www.python.org/downloads/)
 - Visual Studio Code: [Download](https://code.visualstudio.com/download)
 
-## 1. GitHub-Repository klonen:
+## 1.Beschreibung der Anwendung
+Diese Webanwendung wurde mit Flask, einem Python-Webframework, entwickelt. Sie dient als Kreisflächenrechner und ermöglicht es Benutzern, den Radius eines Kreises einzugeben und dessen Fläche zu berechnen. Die Berechnung basiert auf der Formel für die Fläche eines Kreises, nämlich 3.14159 * (Radius)^2.
+Diese Anwendung bietet einen einfachen und benutzerfreundlichen Einstieg in die Welt der Python-Programmierung und Datenverarbeitung.
+Die Anwendung verfügt über ein einfaches und benutzerfreundliches Interface. Auf der Homepage des Rechners geben die Nutzer den Radius des Kreises in ein Eingabefeld ein und klicken auf die Schaltfläche "Berechnen". Anschließend überprüft die Anwendung, ob der eingegebene Radius eine positive Zahl ist, und zeigt die Fläche des Kreises an.
+Die Webanwendung wird mit Docker kontainerisiert, sodass die Bereitstellung und der Betrieb einfacher sind. Die Datei "Dockerfile" wird verwendet, um das Docker-Image zu bauen, und die Datei "requirements.txt" enthält die notwendigen Python-Abhängigkeiten für die Anwendung.
+
+## 2. GitHub-Repository klonen:
 
 - Öffne die Kommandozeile (cmd) auf deinem Windows-Computer.
 - Navigiere zu dem Verzeichnis, in das du die Anwendung klonen möchtest.
@@ -19,7 +25,7 @@
 git clone https://github.com/TanjaNY/Flask.git
 ```
 
-## 2. Flask-Umgebung erstellen:
+## 3. Flask-Umgebung erstellen:
 
 - Öffne die Conda-Befehlszeile.
 - Füge dein Anaconda-Verzeichnis zu den Umgebungsvariablen hinzu [Anleitung](https://michster.de/wie-setze-ich-die-path-umgebungsvariablen-unter-windows-10/).
@@ -46,7 +52,7 @@ python -m venv flask_env
 flask_env\Scripts\activate
 ```
 
-## 3. Flask und Werkzeug installieren:
+## 4. Flask und Werkzeug installieren:
 
 - In der aktivierten Conda-Umgebung führe die folgenden Befehle aus, um Flask und Werkzeug zu installieren:
 
@@ -55,7 +61,7 @@ pip install flask
 pip install Werkzeug 
 ```
 
-## 4. Flask-Anwendung lokal ausführen:
+## 5. Flask-Anwendung lokal ausführen:
 
 - Navigiere zum Verzeichnis der geklonten Flask-Anwendung.
 - Öffne eine Befehlszeile im Verzeichnis der Anwendung.
@@ -78,7 +84,7 @@ flask run
 
 ![](https://github.com/TanjaNY/Flask/blob/main/pics/flask01.png?raw=true)
 
-## 5. Anwendung containerisieren mit Docker:
+## 6. Anwendung containerisieren mit Docker:
 
 - Installiere und starte Docker-Desktop.
 - Stelle sicher, dass sich die Dateien Dockerfile und docker-compose.yml im Stammverzeichnis der Anwendung befinden.
