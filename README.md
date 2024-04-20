@@ -12,7 +12,7 @@
 ## 1.Beschreibung der Anwendung
 Diese Webanwendung wurde mit Flask, einem Python-Webframework, entwickelt. Sie dient als Kreisflächenrechner und ermöglicht es Benutzern, den Radius eines Kreises einzugeben und dessen Fläche zu berechnen. Die Berechnung basiert auf der Formel für die Fläche eines Kreises, nämlich 3.14159 * (Radius)^2.
 Diese Anwendung bietet einen einfachen und benutzerfreundlichen Einstieg in die Welt der Python-Programmierung und Datenverarbeitung.
-Die Anwendung verfügt über ein einfaches und benutzerfreundliches Interface. Auf der Homepage des Rechners geben die Nutzer den Radius des Kreises in ein Eingabefeld ein und klicken auf die Schaltfläche "Berechnen". Anschließend überprüft die Anwendung, ob der eingegebene Radius eine positive Zahl ist, und zeigt die Fläche des Kreises an.
+Die Anwendung verfügt über ein einfaches und benutzerfreundliches Interface. Auf der Homepage des Rechners geben die Nutzer den Radius des Kreises in ein Eingabefeld ein und klicken auf die Schaltfläche "Calculate". Anschließend überprüft die Anwendung, ob der eingegebene Radius eine positive Zahl ist, und zeigt die Fläche des Kreises an.
 Die Webanwendung wird mit Docker kontainerisiert, sodass die Bereitstellung und der Betrieb einfacher sind. Die Datei "Dockerfile" wird verwendet, um das Docker-Image zu bauen, und die Datei "requirements.txt" enthält die notwendigen Python-Abhängigkeiten für die Anwendung.
 
 ## 2. GitHub-Repository klonen:
