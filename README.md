@@ -56,7 +56,7 @@ flask run
 
 - Dadurch wird die Anwendung gestartet und ist standardmäßig unter http://localhost verfügbar. Die Adresse wird nach dem Start angezeigt.
 
-![](pics/flask00)
+![]([pics/flask00](https://github.com/TanjaNY/Flask/blob/main/pics/Flask02.png?raw=true))
 
 ## 5. Anwendung containerisieren mit Docker:
 
