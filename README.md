@@ -75,11 +75,16 @@ flask run
 
   
 
+
+
 ![](https://github.com/TanjaNY/Flask/blob/main/pics/Flask02.png?raw=true)
 
 
 -Öffne deinen Webbrowser und gib die Adresse http://localhost:5005 in die Adressleiste ein, um deine Anwendung zu sehen.
  Die Anwendung wird ungefähr wie folgt angezeigt (ohne die Firefox-Meldung :-))
+
+
+
 
 
 
