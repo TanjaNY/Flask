@@ -113,7 +113,7 @@ flask run
 
 Dockerfile und docker-compose  sind zwei Schlüsselkonzepte im Docker-Ökosystem für die Containerisierung von Anwendungen. Dockerfile ist eine Textdatei, die den Prozess der Erstellung eines Docker-Images definiert, während docker-compose ein Tool ist, mit dem mehrere Docker-Container mit nur einer Befehlszeile gestartet und verwaltet werden können. Beide Konzepte spielen eine entscheidende Rolle bei der Entwicklung, dem Testen und dem Bereitstellen von Anwendungen innerhalb von Containern.
 Ein Dockerfile beginnt immer mit einer Basisimage-Anweisung und enthält Anweisungen wie COPY, ADD, RUN, CMD und ENTRYPOINT, die dem Entwickler erlauben, das Image nach seinen Anforderungen zu konfigurieren. Docker-compose verwendet eine YAML-Datei, in der die Container definiert sind, die eine Anwendung ausmachen, und ermöglicht Entwicklern, eine lokale Entwicklungsumgebung nahtlos nachzubilden.
-Dockerfile und docker-compose tragen zur Beliebtheit und Leistungsfähigkeit der Containerisierung als Technologie für die moderne Softwareentwicklung bei. In Ihrem Verzeichnis finden Sie Beispiele für beide Dateien. Obwohl Sie für dieses Projekt nur das Dockerfile benötigen, werden Sie für weitere Entwicklungen, wie das Hinzufügen einer Datenbank oder eines Webservers, auch docker-compose (oder compose.yaml) verwenden können.
+Dockerfile und docker-compose tragen zur Beliebtheit und Leistungsfähigkeit der Containerisierung als Technologie für die moderne Softwareentwicklung bei. In Ihrem Verzeichnis finden Sie Beispiele für beide Dateien. Obwohl du für dieses Projekt nur das Dockerfile benötigst, wirst du für weitere Entwicklungen, wie das Hinzufügen einer Datenbank oder eines Webservers, auch docker-compose (oder compose.yaml) verwenden können.
 
 So containersierst du die Anwendung:
 
@@ -135,5 +135,5 @@ docker-compose up -d
 
 
 
-## Das ist deine erste containesierte Web-Anwendung, Congratulations!
+## Dies ist deine erste containerisierte Web-Anwendung., Congratulations!
         
