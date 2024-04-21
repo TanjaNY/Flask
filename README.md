@@ -111,6 +111,12 @@ flask run
 
 ## 6. Anwendung containerisieren mit Docker:
 
+Dockerfile und docker-compose  sind zwei Schlüsselkonzepte im Docker-Ökosystem für die Containerisierung von Anwendungen. Dockerfile ist eine Textdatei, die den Prozess der Erstellung eines Docker-Images definiert, während docker-compose ein Tool ist, mit dem mehrere Docker-Container mit nur einer Befehlszeile gestartet und verwaltet werden können. Beide Konzepte spielen eine entscheidende Rolle bei der Entwicklung, dem Testen und dem Bereitstellen von Anwendungen innerhalb von Containern.
+Ein Dockerfile beginnt immer mit einer Basisimage-Anweisung und enthält Anweisungen wie COPY, ADD, RUN, CMD und ENTRYPOINT, die dem Entwickler erlauben, das Image nach seinen Anforderungen zu konfigurieren. Docker-compose verwendet eine YAML-Datei, in der die Container definiert sind, die eine Anwendung ausmachen, und ermöglicht Entwicklern, eine lokale Entwicklungsumgebung nahtlos nachzubilden.
+Dockerfile und docker-compose tragen zur Beliebtheit und Leistungsfähigkeit der Containerisierung als Technologie für die moderne Softwareentwicklung bei. In Ihrem Verzeichnis finden Sie Beispiele für beide Dateien. Obwohl Sie für dieses Projekt nur das Dockerfile benötigen, werden Sie für weitere Entwicklungen, wie das Hinzufügen einer Datenbank oder eines Webservers, auch docker-compose (oder compose.yaml) verwenden können.
+
+![image](https://github.com/TanjaNY/Flask/assets/32233040/854f4355-8bb9-493f-990e-8944b9410033)
+
 - Installiere und starte Docker-Desktop.
 - Stelle sicher, dass sich die Dateien Dockerfile und docker-compose.yml im Stammverzeichnis der Anwendung befinden.
 - Bulde das Docker Image.
