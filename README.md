@@ -59,8 +59,6 @@ Flask ist ein leichtgewichtiges Webframework für Python, das die Entwicklung vo
 Werkzeug ist eine Python-Bibliothek, die eine Sammlung von Werkzeugen und Bibliotheken für die Entwicklung von Webanwendungen bereitstellt. Es bietet Funktionen wie HTTP-Verwaltung, Anwendungsobjekte und Debugging-Funktionen, die in Flask und anderen Python-Webframeworks verwendet werden können.
 Werkzeug stellt somit eine wichtige Infrastruktur für die Entwicklung von Web-Apps und APIs mit Python dar.
 
-![image](https://github.com/TanjaNY/Flask/assets/32233040/8daeb3b1-9284-4a4d-ab34-451c5ab2c5b9)
-
 
 - In der aktivierten Conda-Umgebung führe die folgenden Befehle aus, um Flask und Werkzeug zu installieren:
 
