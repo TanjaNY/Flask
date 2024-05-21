@@ -108,7 +108,7 @@ flask run
 
 
 
-![](https://github.com/TanjaNY/Flask/blob/main/pics/flask01.png?raw=true)
+
 
 
 
