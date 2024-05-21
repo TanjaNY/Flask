@@ -70,9 +70,12 @@ pip install Werkzeug
 ## 5. Flask-Anwendung lokal ausführen:
 
 - Navigiere zum Verzeichnis der geklonten Flask-Anwendung.
-- Öffne eine Befehlszeile im Verzeichnis der Anwendung.
 - Aktiviere die Conda-Umgebung mit dem Befehl:
 
+```bash
+flask_env\Scripts\activate
+```
+- Stare  die Flask-Anwendung
 ```bash
 flask run
 ```
@@ -95,7 +98,7 @@ flask run
 
 
 
--Öffne deinen Webbrowser und gib die Adresse http://localhost:5005 in die Adressleiste ein, um deine Anwendung zu sehen.
+-Öffne deinen Webbrowser und gib die Adresse [http://localhost:5005](http://127.0.0.1:5000) in die Adressleiste ein, um deine Anwendung zu sehen.
  Die Anwendung wird ungefähr wie folgt angezeigt (ohne die Firefox-Meldung :-))
 
 
