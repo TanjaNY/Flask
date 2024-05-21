@@ -103,7 +103,7 @@ flask run
 
 
 
-<p><img src="https://github.com/TanjaNY/Flask/blob/main/pics/flask01.png" widht="300" height="500" alt="Flask App" &nbsp;&nbsp;&nbsp;&nbsp /></p>
+<p><img src="https://github.com/TanjaNY/Flask/blob/main/pics/flask01.png" widht="150" height="300" alt="Flask App" &nbsp;&nbsp;&nbsp;&nbsp /></p>
 
 
 
