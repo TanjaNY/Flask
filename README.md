@@ -95,7 +95,7 @@ flask run
 
 
 
-<p><img src="https://github.com/TanjaNY/Flask/blob/main/pics/flask01.png" widht="150" height="200" alt="Flask App" &nbsp;&nbsp;&nbsp;&nbsp /></p>
+<p><img src="https://github.com/TanjaNY/Flask/blob/main/pics/flask01.png" widht="100" height="200" alt="Flask App" &nbsp;&nbsp;&nbsp;&nbsp /></p>
 <p>&nbsp;</p>
 
 ## 6. Anwendung containerisieren mit Docker:
