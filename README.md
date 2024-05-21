@@ -82,41 +82,21 @@ flask run
 
 - Dadurch wird die Anwendung gestartet und ist standardmäßig unter http://localhost verfügbar. Die Adresse wird nach dem Start angezeigt.
 
-
-
-
-  
-
-
+<p>&nbsp;</p>
 
 ![](https://github.com/TanjaNY/Flask/blob/main/pics/Flask02.png?raw=true)
 
-
-
-
-
-
-
+<p>&nbsp;</p>
 
 -Öffne deinen Webbrowser und gib die Adresse [http://127.0.0.1:5000](http://127.0.0.1:5000) in die Adressleiste ein, um deine Anwendung zu sehen.
  Die Anwendung wird ungefähr wie folgt angezeigt (ohne die Firefox-Meldung :-))
 
-
-
-<p><img src="https://github.com/TanjaNY/Flask/blob/main/pics/flask01.png" widht="150" height="300" alt="Flask App" &nbsp;&nbsp;&nbsp;&nbsp /></p>
-
+ <p>&nbsp;</p>
 
 
 
-
-
-
-
-
-
-
-
-
+<p><img src="https://github.com/TanjaNY/Flask/blob/main/pics/flask01.png" widht="150" height="200" alt="Flask App" &nbsp;&nbsp;&nbsp;&nbsp /></p>
+<p>&nbsp;</p>
 
 ## 6. Anwendung containerisieren mit Docker:
 
