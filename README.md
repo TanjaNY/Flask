@@ -9,6 +9,17 @@
 - Python: [Download](https://www.python.org/downloads/)
 - Visual Studio Code: [Download](https://code.visualstudio.com/download)
 
+## Warum Flask?
+
+Flask ist eine ausgezeichnete Wahl für die Entwicklung von ML- und AI-Anwendungen aus verschiedenen Gründen:
+-1) Einfachheit und Flexibilität: Flask ist ein leichtgewichtiges Web-Framework mit einer einfachen und leicht verständlichen Struktur. Es bietet eine minimale und flexible Schnittstelle zum Erstellen von Web-Anwendungen, sodass Entwickler sich auf die Kernfunktionalität von ML/AI konzentrieren können, ohne von komplexen Web-Entwicklungsdetails überfordert zu werden.
+-2) Modularität und Erweiterbarkeit: Flask bietet ein modulares Design, das Entwicklern das Hinzufügen von Komponenten und Erweiterungen auf Bedarf ermöglicht. Dies erleichtert die Integration verschiedener Machine-Learning-Bibliotheken und Tools wie TensorFlow, PyTorch, NumPy und scikit-learn in Ihre Flask-Anwendung.
+-3) Entwicklung von RESTful-APIs: Flask ist gut für die Erstellung von RESTful-APIs geeignet, die als Kommunikationsgrundlage für ML- und AI-Anwendungen dienen können. Sie können Flask verwenden, um APIs zu erstellen, die Eingabedaten akzeptieren, ML/AI-Aufgaben ausführen und die verarbeiteten Ergebnisse an Clients oder andere Komponenten in Ihrem System zurückgeben.
+-4) Integration mit Datenspeichern und Datenbanken: Flask unterstützt verschiedene Optionen für die Datenspeicherung, einschließlich SQL-Datenbanken (wie MySQL, PostgreSQL oder SQLite) und NoSQL-Datenbanken (wie MongoDB). Dies erleichtert das Speichern, Abrufen und Verarbeiten großer Datensätze, was für ML- und AI-Anwendungen essentiell ist.
+-5) Flexibilität bei der Bereitstellung: Flask-Anwendungen können auf mehreren Plattformen und Cloud-Diensten bereitgestellt werden, einschließlich Heroku, AWS, Google Cloud Platform und Microsoft Azure. Diese Flexibilität ermöglicht Ihnen, Ihre ML/AI-Anwendung anhand der Anforderungen Ihrer Benutzer oder Kunden zu skalieren.
+-6) Lebendige Community und Ökosystem: Flask verfügt über eine große und aktive Entwicklergemeinde, die zu seiner Entwicklung, der Erstellung von Erweiterungen und der Unterstützung beiträgt. Dies bedeutet, dass Sie Zugang zu zahlreichen Ressourcen, Tutorials und Bibliotheken haben, die Ihnen helfen können, die Entwicklung Ihrer ML/AI-Anwendung zu beschleunigen.
+Zusammenfassend macht Flasks Einfachheit, Flexibilität, Erweiterbarkeit und die einfache Integration mit ML/AI-Bibliotheken es zu einer idealen Wahl für die Entwicklung von Machine-Learning- und künstlicher Intelligenz-Anwendungen.
+
 ## 1.Beschreibung der Anwendung
 Diese Webanwendung wurde mit Flask, einem Python-Webframework, entwickelt. Sie dient als Kreisflächenrechner und ermöglicht es Benutzern, den Radius eines Kreises einzugeben und dessen Fläche zu berechnen. Die Berechnung basiert auf der Formel für die Fläche eines Kreises, nämlich 3.14159 * (Radius)^2.
 Diese Anwendung bietet einen einfachen und benutzerfreundlichen Einstieg in die Welt der Python-Programmierung und Datenverarbeitung.
