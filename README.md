@@ -9,11 +9,13 @@
 - Python: [Download](https://www.python.org/downloads/)
 - Visual Studio Code: [Download](https://code.visualstudio.com/download)
 
-## Warum Flask?
+## Warum ist Flask gut für unsere ML und AI Anwendungen?
 
 Flask ist eine ausgezeichnete Wahl für die Entwicklung von ML- und AI-Anwendungen aus verschiedenen Gründen:
--1) Einfachheit und Flexibilität: Flask ist ein leichtgewichtiges Web-Framework mit einer einfachen und leicht verständlichen Struktur. Es bietet eine minimale und flexible Schnittstelle zum Erstellen von Web-Anwendungen, sodass Entwickler sich auf die Kernfunktionalität von ML/AI konzentrieren können, ohne von komplexen Web-Entwicklungsdetails überfordert zu werden.
--2) Modularität und Erweiterbarkeit: Flask bietet ein modulares Design, das Entwicklern das Hinzufügen von Komponenten und Erweiterungen auf Bedarf ermöglicht. Dies erleichtert die Integration verschiedener Machine-Learning-Bibliotheken und Tools wie TensorFlow, PyTorch, NumPy und scikit-learn in Ihre Flask-Anwendung.
+### 1) 
+Einfachheit und Flexibilität: Flask ist ein leichtgewichtiges Web-Framework mit einer einfachen und leicht verständlichen Struktur. Es bietet eine minimale und flexible Schnittstelle zum Erstellen von Web-Anwendungen, sodass Entwickler sich auf die Kernfunktionalität von ML/AI konzentrieren können, ohne von komplexen Web-Entwicklungsdetails überfordert zu werden.
+### 2)
+Modularität und Erweiterbarkeit: Flask bietet ein modulares Design, das Entwicklern das Hinzufügen von Komponenten und Erweiterungen auf Bedarf ermöglicht. Dies erleichtert die Integration verschiedener Machine-Learning-Bibliotheken und Tools wie TensorFlow, PyTorch, NumPy und scikit-learn in Ihre Flask-Anwendung.
 -3) Entwicklung von RESTful-APIs: Flask ist gut für die Erstellung von RESTful-APIs geeignet, die als Kommunikationsgrundlage für ML- und AI-Anwendungen dienen können. Sie können Flask verwenden, um APIs zu erstellen, die Eingabedaten akzeptieren, ML/AI-Aufgaben ausführen und die verarbeiteten Ergebnisse an Clients oder andere Komponenten in Ihrem System zurückgeben.
 -4) Integration mit Datenspeichern und Datenbanken: Flask unterstützt verschiedene Optionen für die Datenspeicherung, einschließlich SQL-Datenbanken (wie MySQL, PostgreSQL oder SQLite) und NoSQL-Datenbanken (wie MongoDB). Dies erleichtert das Speichern, Abrufen und Verarbeiten großer Datensätze, was für ML- und AI-Anwendungen essentiell ist.
 -5) Flexibilität bei der Bereitstellung: Flask-Anwendungen können auf mehreren Plattformen und Cloud-Diensten bereitgestellt werden, einschließlich Heroku, AWS, Google Cloud Platform und Microsoft Azure. Diese Flexibilität ermöglicht Ihnen, Ihre ML/AI-Anwendung anhand der Anforderungen Ihrer Benutzer oder Kunden zu skalieren.
