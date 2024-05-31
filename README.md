@@ -53,7 +53,7 @@ conda create --name flask_env
 ```bash
 conda activate flask_env
 ```
-- Anaconda ist nicht zwingend erforderlich, um eine Flask-App zu entwickeln. Du benötigst Anaconda, wenn du Data Science meistern möchtest. Im Fall, dass du dich gegen Anaconda entscheidest, werden die Befehle etwas anders aussehen.
+- Anaconda ist nicht zwingend erforderlich, um eine Flask-App zu entwickeln. Du benötigst Anaconda, wenn du Data Science meistern und deine ML und AI Anwendungen entwickeln möchtest. Im Fall, dass du dich gegen Anaconda entscheidest, werden die Befehle etwas anders aussehen.
 
 
 ```bash
