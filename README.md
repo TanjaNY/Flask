@@ -133,7 +133,7 @@ Docker build -t myflask-app:latest .
 docker-compose up -d
 ```
 
-- Dadurch wird die Anwendung in einem Docker-Container gestartet und ist unter der angegebenen Adresse http://localhost:5004 verfügbar.
+- Dadurch wird die Anwendung in einem Docker-Container gestartet und ist unter der angegebenen Adresse http://localhost:5005 verfügbar.
 
 
 
