@@ -124,7 +124,7 @@ So containersierst du die Anwendung:
 - Bulde das Docker Image.
 
 ```bash
-Docker build -t myflask-app:latest
+Docker build -t myflask-app:latest .
 ```
 
 - Führe den folgenden Befehl aus, um die Anwendung mit Docker lokal auszuführen:
