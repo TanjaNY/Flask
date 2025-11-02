@@ -1,14 +1,18 @@
-version: '3.8'
+# Docker Compose configuration for Flask application
 
 services:
   web:
+    build: .
     image: myflask-app:latest
     ports:
-      - "5004:5000"
+      - "5004:5000"  # Map host port 5004 to container port 5000
     environment:
-      FLASK_RUN_PORT: 5004  # Set the Flask run port
+      FLASK_APP: app.py
+      FLASK_ENV: development
     networks:
       - flask_network
+    volumes:
+      - .:/python-docker  # Optional: for development hot reload
 
 networks:
   flask_network:
