@@ -37,9 +37,11 @@ Die Webanwendung wird mit Docker kontainerisiert, sodass die Bereitstellung und 
 ```bash
 git clone https://github.com/TanjaNY/Flask.git
 ```
+Wechsele zum neuen Verzeichnis.
 ```bash
-cd Flask
+cd Flask02
 ```
+
 
 ## 3. Flask-Umgebung erstellen:
 
